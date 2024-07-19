@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galerie de Peintures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contactez-Nous</h2>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+            <p>Vous pouvez également nous contacter directement :</p>
+            <p>Nom : Votre Nom</p>
+            <p>Adresse : Votre Adresse</p>
+            <p>Email : <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>Téléphone : Votre Numéro de Téléphone</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Galerie de Peintures</p>
+    </footer>
+</body>
+</html>
